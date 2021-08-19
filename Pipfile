@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-sqlalchemy = "*"
+jinja2 = "*"
+sqlalchemy = "*"
+setuptools = "*"
+wheel = "*"
+python-dotenv = "*"
+spacy = "*"
+tweepy = "*"
+scikit-learn = "*"
+sklearn = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
